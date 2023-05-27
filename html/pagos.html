@@ -1,0 +1,61 @@
+<html>
+    <head>
+            <title> Finanzas</title>
+            
+            <link rel="stylesheet" href="../css/main.css">
+            <link rel="stylesheet" href="../css/finanzas.css">
+            <link rel="stylesheet" href="../css/pagos.css">
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+            <link rel="stylesheet" href="/resources/demos/style.css">
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    </head>
+    
+    <body>
+            
+            <!-- Codigo js -->
+            <script src="../js/acordion.js"></script>
+            <script src="../js/redirect.js"></script>
+
+    
+    
+            <!-- Barra de inicio -->
+            <div id="inicio">
+                <h3 id="usuario">Servicios Webmed</h3>
+                <a id="Cerrar" class="touchable" onclick="Set_redirect('../index.html')">
+                    <h3>X</h3>
+                </a>
+                <div class="touchable" onclick="Help()"><h3>?</h3></div>
+                <div class="touchable"></div>
+            </div>
+            <div id="accordion">
+                <form>
+                    <h1>Factura Virtual</h1>
+                    <table id="table">
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Costo</th>
+                    </tr>
+                    <tbody id="tableBody">
+                        <tr>
+                            <td>Servicio por la aplicacion</td>
+                            <td>$1</td>
+                        </tr>
+                    </tbody>
+                    
+                    </table>
+                    
+                  <label for="payment">Forma de Pago:</label>
+                  <select id="payment" name="payment">
+                    <option value="cash">Efectivo</option>
+                    <option value="card">Tarjeta</option>
+                  </select>
+                  <br><br>
+                  <input type="submit" value="Enviar">
+                </form>
+            </div>
+        <script src="../js/pagos.js"></script>
+    </body>
+</html>

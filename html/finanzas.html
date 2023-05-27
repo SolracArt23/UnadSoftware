@@ -16,6 +16,8 @@
         <!-- Codigo js -->
         <script src="../js/acordion.js"></script>
         <script src="../js/redirect.js"></script>
+        <script src="../js/factura.js"></script>
+
 
         <!-- Barra de inicio -->
         <div id="inicio">
@@ -26,44 +28,43 @@
             <div class="touchable" onclick="Help()"><h3>?</h3></div>
             <div class="touchable"></div>
         </div>
-        
         <!-- Area principal -->
-        <from method="POST" id="formulario">
+        <form method="POST" id="formulario">
             <div id="accordion">
                 <h3> Opcion de pago de medicina</h3>
-                <div class ="content">
-                    <input type="checkbox" value="500000">
+                <div class="content">
+                    <input type="checkbox" id="checkbox_doctor_domicilio" value="500000">
                     <p>Doctor a domicilio</p>
-                    
-                    <input type="checkbox" value="540000">
+
+                    <input type="checkbox" id="checkbox_terapias_domicilio" value="540000">
                     <p>Terapias a domicilio</p>
-                    
-                    <input type="checkbox" value="120000">
+
+                    <input type="checkbox" id="checkbox_consulta_virtual" value="120000">
                     <p>Consulta virtual</p>
                 </div>
                 <h3> Opcion de pago de ambulancia</h3>
-                <div class ="content">
-                    <input type="checkbox" value="1500000">
+                <div class="content">
+                    <input type="checkbox" id="checkbox_doctor_ambulancia" value="1500000">
                     <p>Doctor del ambulancia</p>
-                    <input type="checkbox" value="200000">
+                    <input type="checkbox" id="checkbox_solicitud_transporte" value="200000">
                     <p> Solicitud de transporte</p>
-                    
-                    <input type="checkbox" value="300000">
+
+                    <input type="checkbox" id="checkbox_solicitud_paramedico" value="300000">
                     <p> Solicitud de envio de paramedico</p>
                 </div>
                 <h3> Solicitudes de medicamento o suplementos</h3>
-                <div class ="content">
-                    <input type="checkbox" value="50000">
+                <div class="content">
+                    <input type="checkbox" id="checkbox_envio_medicina" value="50000">
                     <p>Envio de medicina</p>
-                    <input type="checkbox" value="150000">
+                    <input type="checkbox" id="checkbox_evaluacion_medica" value="150000">
                     <p>Evaluacion medica</p>
-                    
-                    <input type="checkbox" value="900000">
+
+                    <input type="checkbox" id="checkbox_envio_equipo_medico" value="900000">
                     <p> Envio de equipo medico</p>
                 </div>
                 <!-- Boton de enviar -->
                 <input type="submit">
             </div>
-        </from>
+        </form>
     </body>
 </html>

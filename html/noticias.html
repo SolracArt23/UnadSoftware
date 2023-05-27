@@ -10,6 +10,8 @@
 <body>
     <!-- Funciones js -->
     <script src="../js/redirect.js"></script>
+    <script src="../js/coment.js"></script>
+
 
     <!-- Barra de inicio -->
     <div id="inicio">
@@ -25,7 +27,7 @@
     <div class="chat-header">
       <h2>Noticias de expertos</h2>
     </div>
-    <div class="chat-body">
+    <div class="chat-body" id="bodyChat">
       <div class="message">
         <span class="sender">Doctor:</span>
         <div class="content">
@@ -50,7 +52,14 @@
           <p>Recuerden la importancia de mantener una buena higiene de manos para prevenir la propagación de enfermedades infecciosas.</p>
         </div>
       </div>
+      
     </div>
+    
+      <!-- Seccion del comentarios -->
+      <div id="Coment_part" >
+        <input type="text" id="messageInput">
+        <button id="sendButton" onclick="Add_mensaje()"> ></button>
+      </div>
   </div>
 </body>
 </html>

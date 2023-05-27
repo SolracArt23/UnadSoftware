@@ -1,0 +1,38 @@
+/* Estilos para la tabla */
+#table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #table th, #table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para el botón */
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: cyan;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4CAF50;
+  }
+  
+#result
+{
+  background-color:#AF5f;
+  color: white;
+}  
