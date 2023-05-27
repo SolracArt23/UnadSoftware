@@ -1,0 +1,48 @@
+
+
+  #accordion {
+    width: 100%;
+    width: 400px;
+    margin: 0 auto; /* Para centrar horizontalmente */
+    margin-top: 100px; /* Espacio en la parte superior */
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  #accordion h3 {
+    background-color: cyan;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+  }
+  
+  #accordion div {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 10px;
+    padding-top: -50px;
+  }  
+  #accordion p::after
+  {
+    white-space: normal;
+  }
+  #accordion input[type="submit"] {
+    background-color: cyan;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  #accordion h3:hover
+  {
+    width: 580px;
+    align-self: center;
+    color: white;
+  }
+  

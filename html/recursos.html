@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Recursos</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/saludAz.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    </head>
+
+    <body>
+        
+        <!-- Codigo js -->
+        <script src="../js/acordion.js"></script>
+        <script src="../js/redirect.js"></script>
+
+        <!-- Barra de inicio -->
+        <div id="inicio">
+            <h3 id="usuario">Servicios Webmed</h3>
+            <a id="Cerrar" class="touchable" onclick="Set_redirect('../html/index.html')">
+                <h3>X</h3>
+            </a>
+            <div class="touchable" onclick="Help()"><h3>?</h3></div>
+            <div class="touchable"></div>
+        </div>
+        <!-- Contenido -->
+        <form>
+            <div id="accordion">
+                <h3>Servicio de ambulancia</h3>
+                <div>
+                    <h4>Descripcion:</h4>
+                    <p>Este es el servicio de ambulacion ncesario en caso de necesitarlo solo llene los siguientes datos</p>
+                    <h5>Direccion:</h5>
+                    <input type="text">
+                    <h5>telefono:</h5>
+                    <input type="tel">
+                </div>
+                <h3>Servicio de Cita virtual</h3>
+                <div>
+                    <h4>Descripcion:</h4>
+                    <p>Este es que se ofrece de manera remota donde se agendara una fecha para ver con un profecional de su apprecio</p>
+                    <h5>Tipo de medico:</h5>
+                    <select>
+                        <option> Especialista</option>
+                        <option>General</option>
+                        <option>Terapeuta</option>
+                        <option>pediatra</option>
+                        <option>Ginecologo</option>
+                        <option> Servicio de enfermeria</option>
+                    </select>
+                    <h5>telefono:</h5>
+                    <input type="tel">
+                </div>
+                <input type="submit">
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+/* Estilos para las imágenes y los botones */
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 667px) {
+    /* Agrega tus estilos CSS para dispositivos móviles aquí */
+    body {
+        font-size: 12px; /* Ajusta el tamaño de fuente según tus necesidades */
+    }
+}
+body 
+{
+    background-color: lightgray;
+}
+#Servicios
+{
+    width: 300px;
+    margin: 0 auto; /* Para centrar horizontalmente */
+    margin-top: 100px; /* Espacio en la parte superior */
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+.Opcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: cyan;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.Opcion img {
+    width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-bottom: 5px;
+}
+.Opcion:hover
+{
+    background-color: lightgray;
+}
+.touchable {
+    display: inline-block;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+
+  .touchable:hover {
+    background-color: gray;
+  }
+  #inicio 
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding-left: 200px;
+    border-radius: 50px;
+    
+  }
+  #usuario {
+    margin-left: auto;
+    margin-right: -10px;
+    font-size: 20px;
+  }
+
+  .touchable {
+    margin-left: auto;
+  }

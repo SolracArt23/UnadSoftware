@@ -1,0 +1,53 @@
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    /* Agrega tus estilos CSS para dispositivos móviles aquí */
+    body {
+        font-size: 14px; /* Ajusta el tamaño de fuente según tus necesidades */
+    }
+}
+            
+body {
+    background-color: lightgray; /* Color de fondo gris claro */
+}
+
+#login {
+    width: 300px;
+    margin: 0 auto; /* Para centrar horizontalmente */
+    margin-top: 100px; /* Espacio en la parte superior */
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.rounded-input {
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.login-button {
+    display: block; /* Hace que los botones ocupen todo el ancho */
+    margin-top: 10px; /* Espacio entre los botones */
+    padding: 10px;
+    background-color: #4CAF50; /* Color verde para el botón de inicio de sesión */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100;
+
+}
+
+.register-button {
+    display: block; /* Hace que los botones ocupen todo el ancho */
+    margin-top: 10px; /* Espacio entre los botones */
+    padding: 10px;
+    background-color: #008CBA; /* Color azul para el botón de registro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100;
+}

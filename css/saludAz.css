@@ -1,0 +1,41 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  #accordion {
+    width: 100%;
+    width: 300px;
+    margin: 0 auto; /* Para centrar horizontalmente */
+    margin-top: 100px; /* Espacio en la parte superior */
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  #accordion h3 {
+    background-color: cyan;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+  }
+  
+  #accordion div {
+    padding: 10px;
+    background-color: lightblue;
+    margin: 10px;
+    padding-top: -50px;
+  }
+  
+#accordion h3:hover
+{
+  width: 580px;
+  align-self: center;
+  color: white;
+}

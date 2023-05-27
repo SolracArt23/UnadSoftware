@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title> Finanzas</title>
+        
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/finanzas.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    </head>
+
+    <body>
+        
+        <!-- Codigo js -->
+        <script src="../js/acordion.js"></script>
+        <script src="../js/redirect.js"></script>
+
+        <!-- Barra de inicio -->
+        <div id="inicio">
+            <h3 id="usuario">Servicios Webmed</h3>
+            <a id="Cerrar" class="touchable" onclick="Set_redirect('../html/index.html')">
+                <h3>X</h3>
+            </a>
+            <div class="touchable" onclick="Help()"><h3>?</h3></div>
+            <div class="touchable"></div>
+        </div>
+        
+        <!-- Area principal -->
+        <from method="POST" id="formulario">
+            <div id="accordion">
+                <h3> Opcion de pago de medicina</h3>
+                <div class ="content">
+                    <input type="checkbox" value="500000">
+                    <p>Doctor a domicilio</p>
+                    
+                    <input type="checkbox" value="540000">
+                    <p>Terapias a domicilio</p>
+                    
+                    <input type="checkbox" value="120000">
+                    <p>Consulta virtual</p>
+                </div>
+                <h3> Opcion de pago de ambulancia</h3>
+                <div class ="content">
+                    <input type="checkbox" value="1500000">
+                    <p>Doctor del ambulancia</p>
+                    <input type="checkbox" value="200000">
+                    <p> Solicitud de transporte</p>
+                    
+                    <input type="checkbox" value="300000">
+                    <p> Solicitud de envio de paramedico</p>
+                </div>
+                <h3> Solicitudes de medicamento o suplementos</h3>
+                <div class ="content">
+                    <input type="checkbox" value="50000">
+                    <p>Envio de medicina</p>
+                    <input type="checkbox" value="150000">
+                    <p>Evaluacion medica</p>
+                    
+                    <input type="checkbox" value="900000">
+                    <p> Envio de equipo medico</p>
+                </div>
+                <!-- Boton de enviar -->
+                <input type="submit">
+            </div>
+        </from>
+    </body>
+</html>
